@@ -7,7 +7,15 @@ import './App.css'
 
 // CHANGE THIS TO NJ'S PHOTO LINK
 const NJ_PHOTO = "./nj.jpg"
-
+// BIRTHDAY WISHES FOR DAJI 🩵❄️🧡🧿
+const BIRTHDAY_WISHES = [
+  "HAPPY BIRTHDAY DAJI!! 🩵❄️🎂 Hope your special day is as amazing as you are!",
+  "Wishing you the happiest birthday, Daji! 🧡🧿 May all your dreams come true this year!",
+  "Many many happy returns of the day, Daji! 🧡🧿 Have a blast and eat lots of cake!",
+  "Happy Birthday Daji!! 🩵❄️🎉 Sending you lots of love, laughter and good luck today!",
+  "It’s your day, Daji! 🧡🧿 Happy Birthday!! May this year bring you endless happiness!"
+]
+  
 export default function App() {
   const [page, setPage] = useState(1)
   const [permissionClicks, setPermissionClicks] = useState(0)
