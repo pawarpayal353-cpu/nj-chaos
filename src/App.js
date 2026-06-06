@@ -1,4 +1,3 @@
-App.js
 import { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { JigsawPuzzle } from 'react-jigsaw-puzzle'
