@@ -6,7 +6,7 @@ import 'react-jigsaw-puzzle/lib/jigsaw-puzzle.css'
 import './App.css'
 
 // CHANGE THIS TO NJ'S PHOTO LINK
-const NJ_PHOTO = "https://i.imgur.com/put-nj-photo-here.jpg"
+const NJ_PHOTO = "nj.jpg"
 
 export default function App() {
   const [page, setPage] = useState(1)
